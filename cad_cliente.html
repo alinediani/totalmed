@@ -1,0 +1,111 @@
+<html>
+     <head>
+	 
+     <meta charset= "UTF-8">
+<style>
+body {
+background-color:#68d3d3;
+}
+</style>
+                <title>
+                Cadastro de cliente 
+                </title>
+         </head>
+                <body>
+				
+                    <form name= "LOG" method = "POST" action="cad_cli_val.php">
+
+                        <table border="0" cellpadding="5" cellspacing= "5">
+                          <tr>
+                             <td colspan=2 height="30"><font face= "arial" color="white"  ><b> Cadastro de cliente</b></td>
+                         </tr>
+        <tr>
+                <td width="10%" height="30"><font face= "arial" color="white"  > Nome:</td>
+                <td  height="30"> <input type="text" name= "CLI_NOME" size="60"></td>
+            </tr>
+            <tr>
+                    <td width="10%" height="30"><font face= "arial" color="white"  > Sexo:</td>
+                    <td  height="30"> <input type="text" name= "CLI_SEXO" size="2"></td>
+                </tr>
+            <tr>
+                    <td width="10%" height="30"> <font face= "arial" color="white"  >CPF:</td>
+                    <td  height="30"> <input type="text" name= "CLI_CPF" size="20"></td>
+                </tr>
+                <tr>
+                        <td width="10%" height="30"><font face= "arial" color="white"  > CEP:</td>
+                        <td  height="30"> <input type="text" name= "CLI_CEP" size="20"></td>
+                    </tr>
+               
+                    <tr>
+                            <td width="10%" height="30"><font face= "arial" color="white"  > Número:</td>
+                            <td  height="30"> <input type="text" name= "CLI_ENDNUMERO" size="3"></td>
+                        </tr>
+                       
+                       
+                            <tr>
+                                    <td width="10%" height="30" class= "login"><font face= "arial" color="white"  > Estado:</td>
+                                    <td  height="30"> 
+                                      <select name= "CLI_ESTADO">
+                                      	<option value="AC">Acre</option> 	  
+										<option selected value="AL">Alagoas</option>  
+										<option value="AM">Amazonas</option> 	   
+										<option value="AP">Amap&aacute;</option> 	   
+										<option value="BA">Bahia</option> 	   
+										<option value="CE">Cear&aacute;</option> 	   
+										<option value="DF">Distrito Federal</option> 	   
+										<option value="ES">Esp&iacute;rito Santo</option> 	   
+										<option value="GO">Goi&aacute;s</option> 	   
+										<option value="MA">Maranh&atilde;o</option> 	   
+										<option value="MG">Minas Gerais</option> 	   
+										<option value="MS">Mato Grosso do Sul</option> 	   
+										<option value="MT">Mato Grosso</option> 	   
+										<option value="PA">Par&aacute;</option> 	   
+										<option value="PB">Para&iacute;ba</option> 	   
+										<option value="PE">Pernambuco</option> 	   
+										<option value="PI">Piau&iacute;</option> 	   
+										<option value="PR">Paran&aacute;</option> 	   
+										<option value="RJ">Rio de Janeiro</option> 	   
+										<option value="RN">Rio Grande do Norte</option> 	   
+										<option value="RO">Rondônia</option> 	   
+										<option value="RR">Roraima</option> 	   
+										<option value="RS">Rio Grande do Sul</option> 	   
+										<option value="SC">Santa Catarina</option> 	   
+										<option value="SE">Sergipe</option> 	   
+										<option value="SP">S&atilde;o Paulo</option> 	   
+										<option value="TO">Tocantins</option> 	   
+                                        </select>
+                                    </td>
+                                    <tr>
+                                            <td width="10%" height="30"> <font face= "arial" color="white"  >Senha:</td>
+                                            <td  height="30"> <input type="password" name= "CLI_SENHA" size="30"></td>
+                                        </tr>
+                                        <tr>
+                                                <td width="10%" height="30"><font face= "arial" color="white"  > Confirmação de Senha:</td>
+                                                <td  height="30"> <input type="password" name= "CLI_CONSENHA" size="30"></td>
+                                            </tr>
+                                        <tr>
+                                                <td width="10%" height="30"><font face= "arial" color="white"  > Nome de Usuário:</td>
+                                                <td  height="30"> <input type="text" name= "CLI_USERNAME" size="30"></td>
+                                            </tr>
+                                         
+                                            <tr>
+                                                    <td width="25%" height="50"> </td>
+                                                 
+												 <td  height="50"> <input type="submit" name= "BOT_CAD" size="30" value= "Cadastrar"></td>
+												
+
+
+												<td  height="50"> <a href="index.html">voltar</a> </td>
+											 </tr>
+								</tr>
+		</table>
+	</form>
+
+</body>	
+												
+												
+												
+												
+												
+												
+</html>
